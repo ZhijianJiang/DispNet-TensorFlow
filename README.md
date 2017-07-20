@@ -11,6 +11,7 @@ for Disparity, Optical Flow, and Scene Flow Estimation](http://www.cv-foundation
 
 ## Network
 ### Convolutional Network
+
 |Name | Kernel | Strides | Channels I/O | Input Resolution | Output Resolution | Input |
 |--- | --- | --- | --- | --- | --- | --- |
 |conv1 	  	| 7 * 7 | 1 | 6/64 		| 1536 * 768 	| 768 * 384 | Images |
@@ -32,6 +33,7 @@ for Disparity, Optical Flow, and Scene Flow Estimation](http://www.cv-foundation
 |pr6 + loss6	| 3 * 3	| 1	| 1024/1	| 24 * 12		| 24 * 12	| conv6b|
 
 ### Upconvolutional Network
+
 |Name | Kernel | Strides | Channels I/O | Input Resolution | Output Resolution | Input |
 |--- | --- | --- | --- | --- | --- | ---|
 |upconv5		| 4 * 4	| 2 | 1024/512	| 24 * 12		| 48 * 24	| conv6b|
