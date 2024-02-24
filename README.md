@@ -1,4 +1,6 @@
 # DispNet-TensorFlow
+This project is no longer under active development, so please exercise caution when using it and I hope it can still be helpful to you :) 
+
 TensorFlow implementation of [A Large Dataset to Train Convolutional Networks
 for Disparity, Optical Flow, and Scene Flow Estimation](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Mayer_A_Large_Dataset_CVPR_2016_paper.pdf) by Zhijian Jiang.
 
